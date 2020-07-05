@@ -2,7 +2,7 @@ import React from "react";
 const Two = () => {
   return (
     <div>
-      <section class="my-8 font-sans container w-full m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
+      <section class="mb-4 -mt-32 font-sans container w-full m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
         <div class="w-full lg:w-1/2">
           <img
             src="https://stitches.hyperyolo.com/images/demo-phone.png"
