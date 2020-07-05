@@ -10,7 +10,7 @@ const Features = () => {
           >
             <i className="fa fa-rocket text-2xl text-blue-700"></i>
           </div>
-          <h2 class="text-black mb-2 font-normal">Praesent placerat.</h2>
+          <h2 class="text-black mb-2 font-normal">React.js</h2>
           <p class="text-gray-700 leading-normal mb-8">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
@@ -21,9 +21,7 @@ const Features = () => {
           >
             <i className="fa fa-rocket text-2xl text-blue-700"></i>
           </div>
-          <h2 class="text-black mb-2 font-normal">
-            Fusce pellentesque suscipit nibh.
-          </h2>
+          <h2 class="text-black mb-2 font-normal">ExpressJS</h2>
           <p class="text-gray-700 leading-normal mb-8">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
@@ -34,9 +32,7 @@ const Features = () => {
           >
             <i className="fa fa-rocket text-2xl text-blue-700"></i>
           </div>
-          <h2 class="text-black mb-2 font-normal">
-            Ut aliquam sollicitudin leo.
-          </h2>
+          <h2 class="text-black mb-2 font-normal">Context Api / Redux</h2>
           <p class="text-gray-700 leading-normal">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
@@ -55,9 +51,18 @@ const Features = () => {
           >
             <i className="fa fa-rocket text-2xl text-blue-700"></i>
           </div>
-          <h2 class="text-black mb-2 font-normal">
-            Cras iaculis ultricies nulla.
-          </h2>
+          <h2 class="text-black mb-2 font-normal">MongoDB / Firestore</h2>
+          <p class="text-gray-700 leading-normal mb-8">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <div
+            class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
+            alt=""
+          >
+            <i className="fa fa-rocket text-2xl text-blue-700"></i>
+          </div>
+          <h2 class="text-black mb-2 font-normal">Socket.io</h2>
           <p class="text-gray-700 leading-normal mb-8">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
@@ -69,20 +74,7 @@ const Features = () => {
             <i className="fa fa-rocket text-2xl text-blue-700"></i>
           </div>
           <h2 class="text-black mb-2 font-normal">
-            Praesent placerat risus quis eros.
-          </h2>
-          <p class="text-gray-700 leading-normal mb-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
-          <div
-            class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
-            alt=""
-          >
-            <i className="fa fa-rocket text-2xl text-blue-700"></i>
-          </div>
-          <h2 class="text-black mb-2 font-normal">
-            Nunc dignissim risus id metus.
+            AWS ec2 / Firebase Hosting
           </h2>
           <p class="text-gray-700 leading-normal">
             Lorem Ipsum is simply dummy text of the printing and typesetting

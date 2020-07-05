@@ -8,11 +8,11 @@ const Intro = () => {
             TurnBox
           </label>
           <p class="leading-normal mb-4">
-            Higly Responsive Websites.Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, ex ea commodo
-            consequat. Sed ut perspiciatis unde omnis iste natus error sit
-            voluptatem accusantium natus error sit.
+            Need a custom made modern and innovative website for your business?
+            Need features like database integration and authentication to be
+            embedded your website? Look no further. Here at TurnBox we strive to
+            deliver the best web solutions for businesses by building
+            innovative, inituitve and secure websites and web apps.
           </p>
           <button class="bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent">
             Learn More
