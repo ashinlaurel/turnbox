@@ -10,6 +10,7 @@ import Features from "./Components/Features";
 import WhatWeDo from "./Components/WhatWeDo";
 import Pricing from "./Components/Pricing";
 import Footer from "./Components/Footer";
+import Team from "./Components/Team";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Features />
       <div className="w-full h-10"></div>
       <WhatWeDo />
+      <Team />
       <Pricing />
       <Footer />
     </div>

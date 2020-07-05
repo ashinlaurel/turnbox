@@ -68,18 +68,18 @@ const Head = () => {
           background: `url(https://source.unsplash.com/random/1920x1080)`,
         }}
       >
-        <h3
-          class=" text-white mx-auto mt-2   "
-          id="heading"
-        >
+        <div class=" text-white mx-auto mt-2 leading-none" id="heading">
           We make{" "}
           <span
             class="txt-rotate"
             data-period="2000"
             data-rotate='[ "amazing", "custom", "fast", "pretty", "functional" ]'
           ></span>
-        </h3 >
-        <h3 class=" text-white mx-auto mt-2   " id="heading"> websites</h3>
+        </div>
+        <div class=" text-white mx-auto leading-none" id="heading">
+          {" "}
+          websites
+        </div>
       </div>
     </div>
   );
