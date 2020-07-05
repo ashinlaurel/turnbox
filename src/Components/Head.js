@@ -69,7 +69,7 @@ const Head = () => {
         }}
       >
         <h3
-          class=" text-white mx-auto mt-2 leading-normal  "
+          class=" text-white mx-auto mt-2   "
           id="heading"
         >
           We make{" "}
@@ -79,7 +79,7 @@ const Head = () => {
             data-rotate='[ "amazing", "custom", "fast", "pretty", "functional" ]'
           ></span>
         </h3 >
-        <h3 class=" text-white mx-auto mt-2 leading-normal  " id="heading"> websites</h3>
+        <h3 class=" text-white mx-auto mt-2   " id="heading"> websites</h3>
       </div>
     </div>
   );
