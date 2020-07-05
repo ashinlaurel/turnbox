@@ -22,7 +22,7 @@ function App() {
       <Three />
       <Features />
       <div className="w-full h-10"></div>
-      <WhatWeDo />
+      {/* <WhatWeDo /> */}
       <Team />
       <Pricing />
       <Footer />

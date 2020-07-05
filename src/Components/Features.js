@@ -1,4 +1,5 @@
 import React from "react";
+import demophone from "../Assets/phone.png";
 const Features = () => {
   return (
     <div>
@@ -40,7 +41,8 @@ const Features = () => {
         </div>
         <div class="order-1 lg:order-2 w-full lg:w-1/2 max-w-sm m-auto mb-6 lg:mb-0">
           <img
-            src="https://stitches.hyperyolo.com/images/demo-phone.png"
+            // src="https://stitches.hyperyolo.com/images/demo-phone.png"
+            src={demophone}
             alt=""
           />
         </div>

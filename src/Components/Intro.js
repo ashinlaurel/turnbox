@@ -1,4 +1,5 @@
 import React from "react";
+
 const Intro = () => {
   return (
     <section class=" bg-gray-300 font-sans">
