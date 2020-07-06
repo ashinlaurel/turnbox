@@ -1,6 +1,5 @@
 import React from "react";
 import demophone from "../Assets/phone.png";
-import ReactIcon from "../Assets/react.png";
 const Features = () => {
   return (
     <div>
