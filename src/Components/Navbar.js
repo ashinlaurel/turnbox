@@ -32,7 +32,7 @@ const Navbar = () => {
     <div className="bg-white text-black fixed w-screen shadow">
      <nav>
       
-<div class="logo flex"><img  className=" mx-2" src={logo} height="40" width="40"></img>
+<div class="logo flex"><img  className=" mx-2" src={logo} alt="logo" height="" width="40"></img>
 TurnBox</div>
 <div class="nav-items">
 <li className="bg-grey-500 rounded"><a href="#project">Project</a></li >
