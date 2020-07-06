@@ -7,31 +7,32 @@ const Navbar = () => {
     // const searchBtn = document.querySelector(".search-icon");
     const cancelBtn = document.querySelector(".cancel-icon");
     const items = document.querySelector(".nav-items");
-    menuBtn.onclick = () => {
-      items.classList.add("active");
-      menuBtn.classList.add("hide");
-      // searchBtn.classList.add("hide");
-      cancelBtn.classList.add("show");
-    };
+    // menuBtn.onclick = ()=>{
+    items.classList.add("active");
+    menuBtn.classList.add("hide");
+    // searchBtn.classList.add("hide");
+    cancelBtn.classList.add("show");
+    // }
   };
   const cancelClick = () => {
+    console.log("ckink");
     const menuBtn = document.querySelector(".menu-icon span");
     // const searchBtn = document.querySelector(".search-icon");
     const cancelBtn = document.querySelector(".cancel-icon");
     const items = document.querySelector(".nav-items");
-    cancelBtn.onclick = () => {
-      items.classList.remove("active");
-      menuBtn.classList.remove("hide");
-      // searchBtn.classList.remove("hide");
-      cancelBtn.classList.remove("show");
-      // cancelBtn.style.color = "#ff3d00";
-    };
+    // cancelBtn.onclick = ()=>{
+    items.classList.remove("active");
+    menuBtn.classList.remove("hide");
+    // searchBtn.classList.remove("hide");
+    cancelBtn.classList.remove("show");
+    // cancelBtn.style.color = "#ff3d00";
+    // }
   };
 
   return (
     <div className="bg-white text-black fixed w-screen shadow">
       <nav>
-        <div class="logo flex">
+        <div onClick={cancelClick} class="logo flex">
           <img
             className=" mx-2"
             src={logo}
@@ -42,21 +43,25 @@ const Navbar = () => {
           TurnBox
         </div>
         <div class="nav-items">
-          <li className="bg-grey-500 rounded">
-            <a href="#project">Projects</a>
+          <li onClick={cancelClick} className="bg-grey-500 rounded">
+            <a href="#project">Project</a>
           </li>
-          <li className="bg-grey-200 rounded">
-            <a href="#technology">Technology</a>
-          </li>
-          <li className="bg-grey-200 rounded">
+          <li onClick={cancelClick} className="bg-grey-200 rounded">
             <a href="#team">Team</a>
           </li>
-          <li className="bg-grey-200 rounded">
+          <li onClick={cancelClick} className="bg-grey-200 rounded">
+            <a href="#technology">Technology</a>
+          </li>
+          <li onClick={cancelClick} className="bg-grey-200 rounded">
             <a href="#contact">Contact</a>
           </li>
         </div>
         <div class="menu-icon" onClick={menuClick}>
           <span class="fa fa-bars"></span>
+        </div>
+
+        <div class="cancel-icon" onClick={cancelClick}>
+          <span class="">x</span>
         </div>
 
         <div class="cancel-icon" onClick={cancelClick}>
