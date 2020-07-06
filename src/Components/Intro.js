@@ -1,5 +1,5 @@
 import React from "react";
-import demoipad from "../Assets/ipadst.png";
+import demoipad from "../Assets/ipadst.jpg";
 
 const Intro = () => {
   return (

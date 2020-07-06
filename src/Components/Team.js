@@ -1,6 +1,6 @@
 import React from "react";
-import AshinPic from "../Assets/ashin.png";
-import AlanPic from "../Assets/alan.png";
+import AshinPic from "../Assets/ashin.jpg";
+import AlanPic from "../Assets/alan.jpg";
 const Team = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-gray-300 py-5 ">
@@ -83,7 +83,7 @@ const Team = () => {
                 <i class="fa fa-github"></i>
               </a>
             </li>
-            <li id="contact" >
+            <li id="contact">
               <a
                 href="https://wa.me/9995131244"
                 target="_blank"
