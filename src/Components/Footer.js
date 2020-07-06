@@ -1,11 +1,21 @@
 import React from "react";
+import logo from "../Assets/logowhite.png";
+
 const Footer = () => {
   return (
     <div>
       <footer class="font-sans bg-black text-white py-8 px-4">
         <div class="mx-auto container overflow-hidden flex flex-col lg:flex-row justify-between">
-          
-          <div className="text-white text-3xl">TurnBox</div>
+          <div className="flex items-start justify-start md:justify-center ">
+            <img
+              className=" mx-2"
+              src={logo}
+              alt="logo"
+              height=""
+              width="40"
+            ></img>
+            <div className="text-white text-3xl font-bold">TurnBox</div>
+          </div>
           <div class="w-1/2 flex text-sm mt-6 lg:mt-0 mx-20">
             {/* <ul class="text-gray-700 list-none p-0 font-thin flex flex-col text-left">
               <li class="inline-block py-2 px-3 text-white uppercase no-underline font-medium tracking-wide">
@@ -118,7 +128,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul> */}
-            
+
             {/* <div class="text-gray-700 flex flex-col ">
               <div class="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">
                 Follow Us
@@ -146,13 +156,18 @@ const Footer = () => {
             </div> */}
           </div>
           <div className="flex flex-col ">
-              <div className="text-3xl font-bold">Lets keep in touch!</div>
-              <div className="text-md font-bold">Find us in any of these platforms, we respond in 1-2 business days.</div>
-              <br/>
-              <div className="text-sm">Phone: +91 9995131244,+91 8848998517 </div>
-              
-              <div className="text-sm">Email:alantomjose@gmail.com, ashinlaurel9999@gmail.com </div>
+            <div className="text-3xl font-bold">Lets keep in touch!</div>
+            <div className="text-md font-bold">
+              Find us in any of these platforms, we respond in 1-2 business
+              days.
             </div>
+            <br />
+            <div className="text-sm">Phone: +91 9995131244,+91 8848998517 </div>
+
+            <div className="text-sm">
+              Email:alantomjose@gmail.com, ashinlaurel9999@gmail.com{" "}
+            </div>
+          </div>
         </div>
         <div class="pt-4 mt-4 text-gray-700 border-t border-gray-900 text-center">
           ©2020 TurnBox. All rights reserved.

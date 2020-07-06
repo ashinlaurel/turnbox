@@ -4,10 +4,10 @@ import demostec from "../Assets/wincutstec.png";
 const Two = () => {
   return (
     <div>
-      <section class="mb-1 md:mb-4 -mt-20  md:-mt-32 font-sans container w-full mx-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
-      <div className=" md:hidden uppercase leading-none text-black font-bold text-6xl pt-10 ">
-            Featured Projects
-          </div>
+      <section class="mb-1 md:mb-4 -mt-24  md:-mt-32 font-sans container w-full mx-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
+        <div className=" md:hidden uppercase leading-none text-black font-bold text-6xl pt-10 ">
+          Featured Projects
+        </div>
         <div class="w-full lg:w-3/4">
           <img
             // src="https://stitches.hyperyolo.com/images/demo-phone.png"
@@ -15,7 +15,10 @@ const Two = () => {
             alt=""
           />
         </div>
-        <div id="project" class=" w-full lg:w-1/4 flex flex-col justify-center items-start p-8 items-center lg:items-start">
+        <div
+          id="project"
+          class=" w-full lg:w-1/4 flex flex-col justify-center items-start p-8 items-center lg:items-start"
+        >
           <div className="hidden md:flex uppercase leading-none text-black font-bold text-6xl pt-10 ">
             Featured Projects
           </div>

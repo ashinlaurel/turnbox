@@ -1,36 +1,37 @@
-import React,{useEffect} from "react";
-import './nav.css'
-import logo from '../Assets/logo.png'
+import React, { useEffect } from "react";
+import "./nav.css";
+import logo from "../Assets/logo.png";
 const Navbar = () => {
-  const menuClick=()=>{
+  const menuClick = () => {
     const menuBtn = document.querySelector(".menu-icon span");
     // const searchBtn = document.querySelector(".search-icon");
     const cancelBtn = document.querySelector(".cancel-icon");
     const items = document.querySelector(".nav-items");
     // menuBtn.onclick = ()=>{
-      items.classList.add("active");
-      menuBtn.classList.add("hide");
-      // searchBtn.classList.add("hide");
-      cancelBtn.classList.add("show");
+    items.classList.add("active");
+    menuBtn.classList.add("hide");
+    // searchBtn.classList.add("hide");
+    cancelBtn.classList.add("show");
     // }
-  }
-  const cancelClick=()=>{
-    console.log("ckink")
+  };
+  const cancelClick = () => {
+    console.log("ckink");
     const menuBtn = document.querySelector(".menu-icon span");
     // const searchBtn = document.querySelector(".search-icon");
     const cancelBtn = document.querySelector(".cancel-icon");
     const items = document.querySelector(".nav-items");
     // cancelBtn.onclick = ()=>{
-      items.classList.remove("active");
-      menuBtn.classList.remove("hide");
-      // searchBtn.classList.remove("hide");
-      cancelBtn.classList.remove("show");
-      // cancelBtn.style.color = "#ff3d00";
+    items.classList.remove("active");
+    menuBtn.classList.remove("hide");
+    // searchBtn.classList.remove("hide");
+    cancelBtn.classList.remove("show");
+    // cancelBtn.style.color = "#ff3d00";
     // }
-  }
-  
+  };
+
   return (
     <div className="bg-white text-black fixed w-screen shadow">
+<<<<<<< HEAD
      <nav>
       
 <div  onClick={cancelClick} class="logo flex"><img  className=" mx-2" src={logo} alt="logo" height="" width="40"></img>
@@ -43,12 +44,46 @@ TurnBox</div>
 </div>
 <div class="menu-icon" onClick={menuClick}>
 <span class="fa fa-bars"></span></div>
+=======
+      <nav>
+        <div onClick={cancelClick} class="logo flex">
+          <img
+            className=" mx-2"
+            src={logo}
+            alt="logo"
+            height=""
+            width="40"
+          ></img>
+          TurnBox
+        </div>
+        <div class="nav-items">
+          <li onClick={cancelClick} className="bg-grey-500 rounded">
+            <a href="#project">Project</a>
+          </li>
+          <li onClick={cancelClick} className="bg-grey-200 rounded">
+            <a href="#team">Team</a>
+          </li>
+          <li onClick={cancelClick} className="bg-grey-200 rounded">
+            <a href="#technology">Technology</a>
+          </li>
+          <li onClick={cancelClick} className="bg-grey-200 rounded">
+            <a href="#contact">Contact</a>
+          </li>
+        </div>
+        <div class="menu-icon" onClick={menuClick}>
+          <span class="fa fa-bars"></span>
+        </div>
+>>>>>>> 6c7473a9348d36c5707618389dcb008b3b257948
 
-<div class="cancel-icon" onClick={cancelClick}>
-<span class="">x</span></div>
+        <div class="cancel-icon" onClick={cancelClick}>
+          <span class="">x</span>
+        </div>
 
-  </nav>
-</div>
+        <div class="cancel-icon" onClick={cancelClick}>
+          <span class="">x</span>
+        </div>
+      </nav>
+    </div>
   );
 };
 
