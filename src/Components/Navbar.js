@@ -35,10 +35,10 @@ const Navbar = () => {
 <div class="logo flex"><img  className=" mx-2" src={logo} alt="logo" height="" width="40"></img>
 TurnBox</div>
 <div class="nav-items">
-<li className="bg-grey-500 rounded"><a href="#project">Project</a></li >
-<li className="bg-grey-200 rounded"><a href="#team">Team</a></li >
-<li className="bg-grey-200 rounded"><a href="#technology">Technology</a></li >
-<li className="bg-grey-200 rounded"><a href="#contact">Contact</a></li >
+<li onClick={cancelClick} className="bg-grey-500 rounded"><a href="#project">Project</a></li >
+<li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#team">Team</a></li >
+<li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#technology">Technology</a></li >
+<li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#contact">Contact</a></li >
 </div>
 <div class="menu-icon" onClick={menuClick}>
 <span class="fa fa-bars"></span></div>
