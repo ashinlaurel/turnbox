@@ -41,7 +41,7 @@ const Three = () => {
               <h2 class="text-black font-bold text-2xl tracking-tight ">
                 Hassle free experience
               </h2>
-              <p class="text-gray-700 leading-normal">
+              <p id="team"  class="text-gray-700 leading-normal">
                 We will take care of all the work of planning, designing and
                 deployment with atmost care while you can concentrate on your
                 business. Our team delivers superior support for all your

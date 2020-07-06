@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import wall from '../Assets/wallcopy.jpg'
 const Head = () => {
   const [adj, setAdj] = useState("Amazing");
 
@@ -65,8 +66,9 @@ const Head = () => {
       <div
         class="h-screen w-full bg-cover bg-center text-center flex flex-col items-center justify-center bg-center "
         style={{
-          background: `url(https://source.unsplash.com/random/1920x1080)`,
-          backgroundRepeat: "no-repeat",
+          // background: `url(https://source.unsplash.com/random/1920x1080)`,
+          backgroundImage: `url(${wall})`
+          // backgroundRepeat: "no-repeat",
         }}
       >
         <div className="container mx-auto">

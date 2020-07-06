@@ -83,7 +83,7 @@ const Team = () => {
                 <i class="fa fa-github"></i>
               </a>
             </li>
-            <li>
+            <li id="contact" >
               <a
                 href="https://wa.me/9995131244"
                 target="_blank"

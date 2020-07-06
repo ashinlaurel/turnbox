@@ -79,16 +79,15 @@ const Contactus = () => {
             </p>
           </div>
         </div>
-        <div class="md:flex md:items-center">
-          <div class="md:w-1/3">
+        <div class="md:flex items-center justify-center">
+          <div class="mx-auto ">
             <button
-              class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+              class=" shadow bg-black hover:bg-gray-800 uppercase text-white font-bold py-3 px-8 "
               type="button"
             >
               Send
             </button>
           </div>
-          <div class="md:w-2/3"></div>
         </div>
       </form>
     </div>
