@@ -11,6 +11,7 @@ import WhatWeDo from "./Components/WhatWeDo";
 import Pricing from "./Components/Pricing";
 import Footer from "./Components/Footer";
 import Team from "./Components/Team";
+import Contactus from "./Components/Contactus";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       {/* <div className="w-full h-10"></div> */}
       {/* <WhatWeDo /> */}
       <Team />
+      <Contactus />
       {/* <Pricing /> */}
       <Footer />
     </div>

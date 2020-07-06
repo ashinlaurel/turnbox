@@ -13,7 +13,7 @@ const Navbar = () => {
               href="#"
               class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline"
             >
-              Products
+              Projects
             </a>
           </li>
           <li>
@@ -21,7 +21,7 @@ const Navbar = () => {
               href="#"
               class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline"
             >
-              Pricing
+              Technology
             </a>
           </li>
           <li class="pr-2">
@@ -29,20 +29,17 @@ const Navbar = () => {
               href="#"
               class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline"
             >
-              FAQs
+              Team
             </a>
           </li>
-          <li class="pl-2 border-l">
+          <li class="pr-2">
             <a
               href="#"
               class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline"
             >
-              Log In
+              Contant Us
             </a>
           </li>
-          <button class="bg-black hover:bg-text-gray-800 text-white ml-4 py-2 px-3">
-            Sign Up
-          </button>
         </ul>
       </nav>
     </div>

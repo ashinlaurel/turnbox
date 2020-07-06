@@ -13,7 +13,7 @@ const Two = () => {
           />
         </div>
         <div class=" w-full lg:w-1/4 flex flex-col justify-center items-start p-8 items-center lg:items-start">
-          <div className=" uppercase leading-none text-gray-700 font-bold text-6xl pt-10 ">
+          <div className=" uppercase leading-none text-black font-bold text-6xl pt-10 ">
             Featured Projects
           </div>
           <label

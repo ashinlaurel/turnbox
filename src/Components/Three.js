@@ -2,59 +2,50 @@ import React from "react";
 const Three = () => {
   return (
     <div>
-      <div class="my-8 font-sans container w-full m-auto flex flex-col md:flex-row sm:items-center">
+      <div class="mb-4 font-sans container w-full m-auto flex flex-col md:flex-row sm:items-center">
         <div class="w-full md:w-1/2 flex flex-col justify-center items-start px-6 py-0 md:py-8 md:px-8 lg:items-start">
           <label
             for="tagline"
-            class="uppercase tracking-wide text-gray-700 font-bold"
+            class="uppercase tracking-tight text-black text-6xl leading-none font-bold"
           >
-            various aspects
+            Your Business Your Rules
           </label>
           <h1 class="mt-2 mb-4 font-medium">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            The need for custom made websites
           </h1>
           <p class="leading-normal mb-4 text-gray-700">
-            Morbi in sem quis dui placerat ornare. Pellentesque odio nisi,
-            euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras
-            consequat. Praesent dapibus, neque id cursus faucibus, tortor neque
-            egestas auguae, eu vulputate magna eros eu erat. Aliquam erat
-            volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
-            luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus.
-            Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla
-            quam, gravida non, commodo a, sodales sit amet, nisi.
+            In an era where online directories are replacing the yellow pages,
+            it is essential for your business to have an online presence.
+            Cosumer behaviour is rapidly changing to adapt to the evolving
+            technologies and it is time for you to take your business online as
+            well. Custom made websites adds credibility to your brand as well as
+            helps in increasing your social media reach.
           </p>
         </div>
         <div class="w-full md:w-1/2 flex flex-row md:flex-col justify-between md:justify-center items-center p-2 md:p-8 items-center md:items-start">
           <div class="flex items-center sm:border-r md:border-b md:border-r-0 p-4 w-1/2 md:w-auto">
-            <div
-              class="w-14 h-14 rounded-full mr-4 bg-gray-300"
-              alt="Avatar of Jonathan Reinink"
-            ></div>
+            <div class="w-14 h-14 rounded-full mr-4 bg-gray-300" alt=""></div>
             <div class="">
-              <h2 class="text-black font-medium">
-                Aliquam tincidunt mauris eu risus.
+              <h2 class="text-black font-bold text-2xl tracking-tight ">
+                As unique as your business
               </h2>
               <p class="text-gray-700 leading-normal">
-                Praesent dapibus, neque id cursus faucibus, tortor neque egestas
-                auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat.
-                Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
-                luctus, metus.
+                Development and deployment of a unique website that is packed
+                with the features you require for your business
               </p>
             </div>
           </div>
           <div class="flex items-center p-4 w-1/2 md:w-auto">
-            <div
-              class="w-14 h-14 rounded-full mr-4 bg-gray-300"
-              alt="Avatar of Jonathan Reinink"
-            ></div>
+            <div class="w-14 h-14 rounded-full mr-4 bg-gray-300" alt=""></div>
             <div class="">
-              <h2 class="text-black font-medium">
-                Vestibulum auctor dapibus neque.
+              <h2 class="text-black font-bold text-2xl tracking-tight ">
+                Hassle free experience
               </h2>
               <p class="text-gray-700 leading-normal">
-                Morbi in sem quis dui placerat ornare. Pellentesque odio nisi,
-                euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras
-                consequat.
+                We will take care of all the work of planning, designing and
+                deployment with atmost care while you can concentrate on your
+                business. Our team delivers superior support for all your
+                requirements.
               </p>
             </div>
           </div>

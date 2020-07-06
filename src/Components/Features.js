@@ -4,7 +4,7 @@ import ReactIcon from "../Assets/react.png";
 const Features = () => {
   return (
     <div>
-      <div class="font-sans container w-full m-auto flex flex-col lg:flex-row justify-center my-8">
+      <div class="font-sans container w-full m-auto flex flex-col lg:flex-row justify-center mt-4 ">
         <div class="order-2 lg:order-1 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 mt-8">
           <div
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
