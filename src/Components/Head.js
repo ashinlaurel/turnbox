@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import wall from '../Assets/wallcopy.jpg'
+import wall from "../Assets/wallcopy.jpg";
+import thevideo from "../Assets/video.mp4";
 const Head = () => {
   const [adj, setAdj] = useState("Amazing");
 
@@ -64,14 +65,27 @@ const Head = () => {
   return (
     <div>
       <div
-        class="h-screen w-full bg-cover bg-center text-center flex flex-col items-center justify-center bg-center "
-        style={{
-          // background: `url(https://source.unsplash.com/random/1920x1080)`,
-          backgroundImage: `url(${wall})`
-          // backgroundRepeat: "no-repeat",
-        }}
+        class="relative overflow-hidden h-screen w-full bg-black bg-cover bg-center text-center flex flex-col items-center justify-center bg-center "
+        style={
+          {
+            // background: `url(https://source.unsplash.com/random/1920x1080)`,
+            // backgroundImage: `url(${wall})`
+            // backgroundRepeat: "no-repeat",
+          }
+        }
       >
-        <div className="container mx-auto">
+        <div className="absolute inset-0 z-0 ">
+          <video
+            src={thevideo}
+            type="video/mp4"
+            autoPlay
+            muted
+            loop
+            className="object-cover w-full h-full "
+          ></video>
+        </div>
+
+        <div className="container mx-auto z-10">
           <div
             class=" text-white mx-auto mt-2 leading-none tracking-tighter uppercase font-bold  "
             id="heading"

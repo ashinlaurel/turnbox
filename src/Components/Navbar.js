@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-white text-black fixed w-screen shadow">
+    <div className="z-20 bg-white text-black fixed w-screen shadow">
       <nav>
         <div onClick={cancelClick} class="logo flex">
           <img
