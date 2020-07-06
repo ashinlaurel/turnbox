@@ -6,7 +6,7 @@ const Contactus = () => {
       <div className="text-5xl tracking-tight leading-tight font-bold my-2 border-b border-black">
         Contact Us
       </div>
-      <form class="my-10 w-1/2">
+      <form class="my-10 w-3/4 lg:w-1/2">
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label

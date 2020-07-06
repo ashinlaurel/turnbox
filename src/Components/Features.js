@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <div>
       <div class="font-sans container w-full m-auto flex flex-col lg:flex-row justify-center mt-4 ">
-        <div class="order-2 lg:order-1 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 mt-8">
+        <div class="-mt-20 px-20 md:px-0 md:mt-8 order-2 lg:order-1 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 ">
           <div
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
             alt=""
@@ -38,14 +38,15 @@ const Features = () => {
             Centralised states and logic to maintain maximum performance
           </p>
         </div>
-        <div class="order-1 lg:order-2 w-full lg:w-1/2 max-w-sm m-auto mb-6 lg:mb-0">
+        <div class=" order-1 lg:order-2 w-full lg:w-1/2 max-w-sm m-auto mb-2 lg:mb-0">
           <img
             // src="https://stitches.hyperyolo.com/images/demo-phone.png"
             src={demophone}
             alt=""
+            className="-mt-24 md:-mt-1"
           />
         </div>
-        <div class="order-last w-full lg:w-1/4 flex flex-col items-center lg:items-start justify-center text-center lg:text-left mt-8 mr-8">
+        <div class="px-20 md:px-0 order-last w-full lg:w-1/4 flex flex-col items-center lg:items-start justify-center text-center lg:text-left mt-8 mr-8">
           <div
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
             alt=""

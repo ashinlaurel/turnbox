@@ -7,8 +7,8 @@ const Team = () => {
       <div className="text-5xl tracking-tight leading-tight font-bold my-2 border-b border-black">
         Our Team
       </div>
-      <div class=" flex items-center w-full justify-center my-10 ">
-        <div class="mx-8 w-1/6 flex flex-col items-center justify-center bg-white p-4 shadow-xl rounded-lg">
+      <div class=" flex items-center w-full justify-center my-10  ">
+        <div class="mx-1 xl:mx-8 w-1/2 xl:w-1/6 flex flex-col items-center justify-center bg-white p-4 shadow-xl rounded-lg">
           <div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
             <img src={AshinPic} alt="" class="h-full w-full object-cover" />
           </div>
@@ -51,7 +51,7 @@ const Team = () => {
             </li>
           </ul>
         </div>
-        <div class="mx-8 w-1/6 flex flex-col items-center justify-center bg-white p-4 shadow-xl rounded-lg">
+        <div class="mx-1 xl:mx-8 w-1/2 xl:w-1/6 flex flex-col items-center justify-center bg-white p-4 shadow-xl rounded-lg">
           <div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
             <img src={AlanPic} alt="" class="h-full w-full object-cover" />
           </div>

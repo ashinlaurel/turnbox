@@ -71,8 +71,8 @@ const Head = () => {
       >
         <div className="container mx-auto">
           <div
-            class=" text-white mx-auto mt-2 leading-none tracking-tighter uppercase font-bold "
-            id="heading"
+            class=" text-white mx-auto mt-2 leading-none tracking-tighter uppercase font-bold text-4xl "
+            id="headings"
           >
             We make{" "}
             <span
@@ -82,8 +82,8 @@ const Head = () => {
             ></span>
           </div>
           <div
-            class=" text-white mx-auto leading-none tracking-tighter uppercase font-bold "
-            id="heading"
+            class=" text-white mx-auto leading-none tracking-tighter uppercase font-bold text-4xl "
+            id="headings"
           >
             {" "}
             websites

@@ -2,7 +2,7 @@ import React from "react";
 const Three = () => {
   return (
     <div>
-      <div class="mb-4 font-sans container w-full m-auto flex flex-col md:flex-row sm:items-center">
+      <div class="mb-4 mt-10 md:mt-0 md:-mt-16 font-sans container w-full m-auto flex flex-col md:flex-row sm:items-center">
         <div class="w-full md:w-1/2 flex flex-col justify-center items-start px-6 py-0 md:py-8 md:px-8 lg:items-start">
           <label
             for="tagline"
@@ -22,7 +22,7 @@ const Three = () => {
             helps in increasing your social media reach.
           </p>
         </div>
-        <div class="w-full md:w-1/2 flex flex-row md:flex-col justify-between md:justify-center items-center p-2 md:p-8 items-center md:items-start">
+        <div class="w-full md:w-1/2 flex flex-row md:flex-col justify-between md:justify-center items-start p-2 md:p-8  md:items-start">
           <div class="flex items-center sm:border-r md:border-b md:border-r-0 p-4 w-1/2 md:w-auto">
             <div class="w-14 h-14 rounded-full mr-4 bg-gray-300" alt=""></div>
             <div class="">

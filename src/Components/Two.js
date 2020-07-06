@@ -4,7 +4,7 @@ import demostec from "../Assets/wincutstec.png";
 const Two = () => {
   return (
     <div>
-      <section class="mb-4  -mt-32 font-sans container w-full mx-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
+      <section class="mb-1 md:mb-4 -mt-20  md:-mt-32 font-sans container w-full mx-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
         <div class="w-full lg:w-3/4">
           <img
             // src="https://stitches.hyperyolo.com/images/demo-phone.png"
@@ -13,7 +13,7 @@ const Two = () => {
           />
         </div>
         <div class=" w-full lg:w-1/4 flex flex-col justify-center items-start p-8 items-center lg:items-start">
-          <div className=" uppercase leading-none text-black font-bold text-6xl pt-10 ">
+          <div className="hidden md:flex uppercase leading-none text-black font-bold text-6xl pt-10 ">
             Featured Projects
           </div>
           <label
@@ -37,7 +37,7 @@ const Two = () => {
           </a>
         </div>
       </section>
-      <section class="my-8 pt-8 font-sans container w-full m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center">
+      <section class=" md:my-8 pt-2  md:pt-8 font-sans container w-full m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center">
         <div class="w-full lg:w-1/4 flex flex-col justify-center items-start p-8 items-center lg:items-start">
           <label
             for="tagline"

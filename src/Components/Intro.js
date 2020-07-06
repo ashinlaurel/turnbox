@@ -4,11 +4,11 @@ import demoipad from "../Assets/ipadst.png";
 const Intro = () => {
   return (
     <section class="bg-gray-300 font-sans ">
-      <div class="container  m-auto  flex flex-col md:flex-row w-screen">
+      <div class="container m-auto px-5 flex flex-col md:flex-row w-screen">
         <div class="flex flex-col w-full lg:w-1/2 justify-center items-start py-8">
           <label
             for="tagline"
-            class="uppercase tracking-tight leading-none md:text-6xl font-bold"
+            class="uppercase tracking-tight leading-none text-4xl md:text-6xl font-bold"
           >
             Move Your Business To the Internet
           </label>
