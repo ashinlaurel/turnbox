@@ -7,32 +7,33 @@ const Navbar = () => {
     // const searchBtn = document.querySelector(".search-icon");
     const cancelBtn = document.querySelector(".cancel-icon");
     const items = document.querySelector(".nav-items");
-    menuBtn.onclick = ()=>{
+    // menuBtn.onclick = ()=>{
       items.classList.add("active");
       menuBtn.classList.add("hide");
       // searchBtn.classList.add("hide");
       cancelBtn.classList.add("show");
-    }
+    // }
   }
   const cancelClick=()=>{
+    console.log("ckink")
     const menuBtn = document.querySelector(".menu-icon span");
     // const searchBtn = document.querySelector(".search-icon");
     const cancelBtn = document.querySelector(".cancel-icon");
     const items = document.querySelector(".nav-items");
-    cancelBtn.onclick = ()=>{
+    // cancelBtn.onclick = ()=>{
       items.classList.remove("active");
       menuBtn.classList.remove("hide");
       // searchBtn.classList.remove("hide");
       cancelBtn.classList.remove("show");
       // cancelBtn.style.color = "#ff3d00";
-    }
+    // }
   }
   
   return (
     <div className="bg-white text-black fixed w-screen shadow">
      <nav>
       
-<div class="logo flex"><img  className=" mx-2" src={logo} alt="logo" height="" width="40"></img>
+<div  onClick={cancelClick} class="logo flex"><img  className=" mx-2" src={logo} alt="logo" height="" width="40"></img>
 TurnBox</div>
 <div class="nav-items">
 <li onClick={cancelClick} className="bg-grey-500 rounded"><a href="#project">Project</a></li >
