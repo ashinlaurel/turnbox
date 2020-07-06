@@ -19,12 +19,12 @@ function App() {
       <Head />
       <Intro />
       <Two />
-      <Three />
       <Features />
-      <div className="w-full h-10"></div>
+      <Three />
+      {/* <div className="w-full h-10"></div> */}
       {/* <WhatWeDo /> */}
       <Team />
-      <Pricing />
+      {/* <Pricing /> */}
       <Footer />
     </div>
   );

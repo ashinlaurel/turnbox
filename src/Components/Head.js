@@ -63,22 +63,31 @@ const Head = () => {
   return (
     <div>
       <div
-        class="h-screen w-full bg-cover text-center flex flex-col items-center justify-center bg-center bg-no-repeat"
+        class="h-screen w-full bg-cover bg-center text-center flex flex-col items-center justify-center bg-center "
         style={{
           background: `url(https://source.unsplash.com/random/1920x1080)`,
+          backgroundRepeat: "no-repeat",
         }}
       >
-        <div class=" text-white mx-auto mt-2 leading-none" id="heading">
-          We make{" "}
-          <span
-            class="txt-rotate"
-            data-period="2000"
-            data-rotate='[ "amazing", "custom", "fast", "pretty", "functional" ]'
-          ></span>
-        </div>
-        <div class=" text-white mx-auto leading-none" id="heading">
-          {" "}
-          websites
+        <div className="container mx-auto">
+          <div
+            class=" text-white mx-auto mt-2 leading-none tracking-tighter uppercase font-bold "
+            id="heading"
+          >
+            We make{" "}
+            <span
+              class="txt-rotate"
+              data-period="2000"
+              data-rotate='[ "amazing", "custom", "fast", "pretty", "functional" ]'
+            ></span>
+          </div>
+          <div
+            class=" text-white mx-auto leading-none tracking-tighter uppercase font-bold "
+            id="heading"
+          >
+            {" "}
+            websites
+          </div>
         </div>
       </div>
     </div>

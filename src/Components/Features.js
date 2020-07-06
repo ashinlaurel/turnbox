@@ -1,5 +1,6 @@
 import React from "react";
 import demophone from "../Assets/phone.png";
+import ReactIcon from "../Assets/react.png";
 const Features = () => {
   return (
     <div>
@@ -9,34 +10,32 @@ const Features = () => {
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
             alt=""
           >
-            <i className="fa fa-rocket text-2xl text-blue-700"></i>
+            <i className="fa fa-desktop text-2xl object-scale-down text-black"></i>
+            {/* <img src={ReactIcon} className="p-2" /> */}
           </div>
           <h2 class="text-black mb-2 font-normal">React.js</h2>
           <p class="text-gray-700 leading-normal mb-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Interactive and responsive UIs built using the React framework
           </p>
           <div
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
             alt=""
           >
-            <i className="fa fa-rocket text-2xl text-blue-700"></i>
+            <i className="fa fa-code text-2xl object-scale-down text-black"></i>
           </div>
           <h2 class="text-black mb-2 font-normal">ExpressJS</h2>
           <p class="text-gray-700 leading-normal mb-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Fast and minimalist backends and web frameworks built using Express
           </p>
           <div
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
             alt=""
           >
-            <i className="fa fa-rocket text-2xl text-blue-700"></i>
+            <i className="fa fa-exchange text-2xl object-scale-down text-black"></i>
           </div>
           <h2 class="text-black mb-2 font-normal">Context Api / Redux</h2>
           <p class="text-gray-700 leading-normal">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Centralised states and logic to maintain maximum performance
           </p>
         </div>
         <div class="order-1 lg:order-2 w-full lg:w-1/2 max-w-sm m-auto mb-6 lg:mb-0">
@@ -51,36 +50,36 @@ const Features = () => {
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
             alt=""
           >
-            <i className="fa fa-rocket text-2xl text-blue-700"></i>
+            <i className="fa fa-database text-2xl object-scale-down text-black"></i>
           </div>
           <h2 class="text-black mb-2 font-normal">MongoDB / Firestore</h2>
           <p class="text-gray-700 leading-normal mb-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Modern database solutions for the modern cloud era
           </p>
           <div
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
             alt=""
           >
-            <i className="fa fa-rocket text-2xl text-blue-700"></i>
+            <i
+              className="fa fa-feed text-2xl object-scale-down text-black"
+              aria-hidden="true"
+            ></i>
           </div>
           <h2 class="text-black mb-2 font-normal">Socket.io</h2>
           <p class="text-gray-700 leading-normal mb-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Applications with real-time data transfer ability
           </p>
           <div
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
             alt=""
           >
-            <i className="fa fa-rocket text-2xl text-blue-700"></i>
+            <i className="fa fa-cloud text-2xl object-scale-down text-black"></i>
           </div>
           <h2 class="text-black mb-2 font-normal">
             AWS ec2 / Firebase Hosting
           </h2>
           <p class="text-gray-700 leading-normal">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Secure and scalable deployment solutions
           </p>
         </div>
       </div>

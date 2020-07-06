@@ -133,19 +133,19 @@ const Footer = () => {
                   class="block flex items-center text-white hover:text-gray-500 mr-6 no-underline"
                   href="#"
                 >
-                  <i class="fab fa-github-alt"></i>
+                  <i class="fa fa-github-alt"></i>
                 </a>
                 <a
                   class="block flex items-center text-white hover:text-gray-500 mr-6 no-underline"
                   href="#"
                 >
-                  <i class="fab fa-slack"></i>
+                  <i class="fa fa-slack"></i>
                 </a>
                 <a
                   class="block flex items-center text-white hover:text-gray-500 no-underline"
                   href="#"
                 >
-                  <i class="fab fa-twitter"></i>
+                  <i class="fa fa-twitter"></i>
                 </a>
               </div>
             </div>

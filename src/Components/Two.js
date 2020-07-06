@@ -4,7 +4,7 @@ import demostec from "../Assets/wincutstec.png";
 const Two = () => {
   return (
     <div>
-      <section class="mb-4 -mt-20 font-sans container w-full m-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
+      <section class="mb-4  -mt-32 font-sans container w-full mx-auto flex flex-col lg:flex-row text-center lg:text-left sm:items-center">
         <div class="w-full lg:w-3/4">
           <img
             // src="https://stitches.hyperyolo.com/images/demo-phone.png"
@@ -12,33 +12,52 @@ const Two = () => {
             alt=""
           />
         </div>
-        <div class="w-full lg:w-1/4 flex flex-col justify-center items-start p-8 items-center lg:items-start">
+        <div class=" w-full lg:w-1/4 flex flex-col justify-center items-start p-8 items-center lg:items-start">
+          <div className=" uppercase leading-none text-gray-700 font-bold text-6xl pt-10 ">
+            Featured Projects
+          </div>
           <label
             for="tagline"
-            class="uppercase tracking-wide text-gray-700 font-bold"
+            class="uppercase leading-none text-gray-700 font-bold text-4xl mt-8"
           >
-            TurnBox
+            Hype Digital Website
           </label>
-          <h1 class="my-4 font-normal">Our Work Flow</h1>
-          <p class="leading-normal mb-4 text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+          <p class="leading-normal mb-4 text-gray-700 my-2">
+            A front-end heavy website custom made for a digital marketing
+            startup. Features like blog page and instant contact us form mailing
+            service are all embedded within the website.
           </p>
+          <a
+            href="https://hypedigi.com/"
+            target="_blank"
+            class="my-1 font-normal bg-gray-600 hover:bg-gray-700 px-2 py-1 rounded text-white"
+          >
+            Check it out
+          </a>
         </div>
       </section>
       <section class="my-8 pt-8 font-sans container w-full m-auto flex flex-col-reverse lg:flex-row text-center lg:text-left sm:items-center">
         <div class="w-full lg:w-1/4 flex flex-col justify-center items-start p-8 items-center lg:items-start">
           <label
             for="tagline"
-            class="uppercase tracking-wide text-gray-700 font-bold"
+            class="uppercase leading-none text-gray-700 font-bold text-4xl"
           >
-            TurnBox
+            Stec Systems Website
           </label>
-          <h1 class="my-4 font-normal">Our Work Flow</h1>
-          <p class="leading-normal mb-4 text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+          <p class="leading-normal mb-4 text-gray-700 my-2">
+            Pleasant UI packed with an admin dashboard with a complete secure
+            authentication solution. Facilitates the company to collect orders
+            from customers online and view them in a custom made dashboard.
           </p>
+          <a
+            href="https://stecsystems.in/"
+            target="_blank"
+            class="my-1 font-normal bg-gray-600 hover:bg-gray-700 px-2 py-1 rounded text-white"
+          >
+            Check it out
+          </a>
         </div>
         <div class="w-full lg:w-3/4 ">
           <img
