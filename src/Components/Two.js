@@ -1,6 +1,6 @@
 import React from "react";
 import demohype from "../Assets/wincuthype2.png";
-import demostec from "../Assets/wincutstec.png";
+import demostec from "../Assets/wincutstec.jpg";
 const Two = () => {
   return (
     <div>
