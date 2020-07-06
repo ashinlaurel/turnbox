@@ -30,7 +30,25 @@ const Navbar = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="z-20 bg-white text-black fixed w-screen shadow">
+=======
+    <div className="bg-white text-black fixed w-screen shadow">
+<<<<<<< HEAD
+     <nav>
+      
+<div  onClick={cancelClick} class="logo flex"><img  className=" mx-2" src={logo} alt="logo" height="" width="40"></img>
+TurnBox</div>
+<div class="nav-items">
+<li onClick={cancelClick} className="bg-grey-500 rounded"><a href="#project">Project</a></li >
+<li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#technology">Technology</a></li >
+<li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#team">Team</a></li >
+<li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#contact">Contact</a></li >
+</div>
+<div class="menu-icon" onClick={menuClick}>
+<span class="fa fa-bars"></span></div>
+=======
+>>>>>>> afa4df13ec5e07126c500723ceaae900faed1842
       <nav>
         <div onClick={cancelClick} class="logo flex">
           <img
@@ -59,6 +77,7 @@ const Navbar = () => {
         <div class="menu-icon" onClick={menuClick}>
           <span class="fa fa-bars"></span>
         </div>
+>>>>>>> 6c7473a9348d36c5707618389dcb008b3b257948
 
         <div class="cancel-icon" onClick={cancelClick}>
           <span class="">x</span>
