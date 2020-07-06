@@ -8,11 +8,12 @@ const Two = () => {
         <div className=" md:hidden uppercase leading-none text-black font-bold text-6xl pt-10 ">
           Featured Projects
         </div>
-        <div class="w-full lg:w-3/4">
+        <div class="w-full  lg:w-3/4">
           <img
             // src="https://stitches.hyperyolo.com/images/demo-phone.png"
             src={demohype}
             alt=""
+            className="w-full object-fill"
           />
         </div>
         <div
