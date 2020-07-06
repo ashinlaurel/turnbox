@@ -37,8 +37,8 @@ const Navbar = () => {
 TurnBox</div>
 <div class="nav-items">
 <li onClick={cancelClick} className="bg-grey-500 rounded"><a href="#project">Project</a></li >
-<li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#team">Team</a></li >
 <li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#technology">Technology</a></li >
+<li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#team">Team</a></li >
 <li onClick={cancelClick} className="bg-grey-200 rounded"><a  href="#contact">Contact</a></li >
 </div>
 <div class="menu-icon" onClick={menuClick}>
