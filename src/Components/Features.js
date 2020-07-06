@@ -1,13 +1,16 @@
 import React from "react";
-import demophone from "../Assets/phone.png";
+import demophone from "../Assets/phone.jpg";
 const Features = () => {
   return (
-    <div>  <div id="technology" className=" uppercase leading-none text-black text-center font-bold text-6xl pt-10 ">
-    Our Tech Stack
-  </div>
-   
+    <div>
+      {" "}
+      <div
+        id="technology"
+        className=" uppercase leading-none text-black text-center font-bold text-6xl pt-10 "
+      >
+        Our Tech Stack
+      </div>
       <div class="font-sans container w-full m-auto flex flex-col lg:flex-row justify-center mt-4 ">
-     
         <div class="-mt-20 px-20 md:px-0 md:mt-8 order-2 lg:order-1 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 ">
           <div
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"
