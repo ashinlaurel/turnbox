@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import wall from "../Assets/wallcopy.jpg";
-// import thevideo from "../Assets/output.mp4";
+// import thevideo from "../Assets/video.mp4";
 const Head = () => {
   const [adj, setAdj] = useState("Amazing");
 
@@ -81,6 +81,9 @@ const Head = () => {
             loop
             className="object-cover w-full h-full "
           ></video>
+        </div>
+        <div className="absolute inset-0 z-10 ">
+          <div className="w-full h-full bg-black bg-opacity-50 "></div>
         </div> */}
 
         <div className="container mx-auto z-10">
