@@ -65,7 +65,7 @@ const Head = () => {
   return (
     <div>
       <div
-        class="relative overflow-hidden h-screen w-full bg-black bg-cover bg-center text-center flex flex-col items-center justify-center bg-center "
+        class="relative overflow-hidden h-screen w-full bg-gray-300 bg-cover bg-center text-center flex flex-col items-center justify-center bg-center "
         style={{
           // background: `url(https://source.unsplash.com/random/1920x1080)`,
           backgroundImage: `url(${wall})`,

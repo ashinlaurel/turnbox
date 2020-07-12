@@ -15,12 +15,12 @@ const Intro = () => {
               Move Your Business To the Internet
             </label>
             <p class="leading-normal my-4">
-              Need a custom made modern and innovative website for your
-              business? Need features like database integration and
-              authentication to be embedded in your website? Look no further.
-              Here at TurnBox we strive to deliver the best web solutions for
-              businesses by building innovative, inituitve and secure websites
-              and web apps. Take a look at our featured projects below.
+              Need a customised modern and innovative website for your business?
+              Need features like database integration and authentication to be
+              embedded in your website? Look no further. Here at TurnBox we
+              strive to deliver the best web solutions for businesses by
+              building innovative, intuitve and secure websites and web apps.
+              Take a look at our featured projects below.
             </p>
             <button class=" hidden bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent">
               Learn More

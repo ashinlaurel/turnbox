@@ -35,7 +35,7 @@ const Features = () => {
           </div>
           <h2 class="text-black mb-2 font-bold">ExpressJS</h2>
           <p class="text-gray-700 leading-normal mb-8">
-            Fast and minimalist backends and web frameworks built using Express
+            Fast and secure backends and web frameworks built using Express
           </p>
           <div
             class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-300 mb-2"

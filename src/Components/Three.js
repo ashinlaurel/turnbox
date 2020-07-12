@@ -19,7 +19,7 @@ const Three = () => {
             <p class="leading-normal mb-4 text-gray-700">
               In an era where online directories are replacing the yellow pages,
               it is essential for your business to have an online presence.
-              Cosumer behaviour is rapidly changing to adapt to the evolving
+              Consumer behaviour is rapidly changing to adapt to the evolving
               technologies and it is time for you to take your business online
               as well. Custom made websites adds credibility to your brand as
               well as helps in increasing your social media reach.
@@ -34,7 +34,7 @@ const Three = () => {
                 </h2>
                 <p class="text-gray-700 leading-normal">
                   Development and deployment of a unique website that is packed
-                  with the features you require for your business
+                  with all the features you require for your business
                 </p>
               </div>
             </div>
@@ -45,10 +45,10 @@ const Three = () => {
                   Hassle free experience
                 </h2>
                 <p id="team" class="text-gray-700 leading-normal">
-                  We will take care of all the work of planning, designing and
-                  deployment with atmost care while you can concentrate on your
-                  business. Our team delivers superior support for all your
-                  requirements.
+                  We take care of all the work of planning, designing and
+                  deployment with minimal input from the client's side. We
+                  continue to deliver superior support even after deployment for
+                  all of our client's requirements.
                 </p>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import axios from "axios";
 import Navbar from "./Components/Navbar";
 import Head from "./Components/Head";
 import Intro from "./Components/Intro";
@@ -13,6 +14,9 @@ import Footer from "./Components/Footer";
 import Team from "./Components/Team";
 import Contactus from "./Components/Contactus";
 
+axios.defaults.baseURL =
+  "https://us-central1-turnbox-app.cloudfunctions.net/app";
+// axios.defaults.baseURL = "http://localhost:3001/";
 function App() {
   return (
     <div className="App">
